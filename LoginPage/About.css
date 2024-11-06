@@ -1,0 +1,80 @@
+body, html { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #ffff;
+}
+
+.navbar {
+    background-color: #999ae6;
+}
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+.nav-link {
+    color: #000000;
+}
+.nav-link:hover {
+    color: grey; 
+}
+.brand-name {
+    font-family: 'Montaga', serif;
+    font-size: 24px;
+}
+
+
+/*.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}*/
+
+.content {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;   
+}
+
+
+.content h2 {
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.content p {
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #bc3af441;
+    color: #000000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #a58cd4;
+}
+
+
+.img-fluid {
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+
+.footer {
+    background-color: #999AE6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
